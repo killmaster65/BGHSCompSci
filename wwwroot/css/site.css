@@ -20,3 +20,22 @@ html {
 body {
   margin-bottom: 60px;
 }
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  gap: 20px; /* Space between columns */
+  width: 100%; /* Make sure the grid container takes the full width */
+}
+
+.left-column, .right-column {
+  padding: 10px;
+  box-sizing: border-box; /* Ensures padding doesn’t affect the width */
+  background-color: #f0f0f0; /* Optional: Background color for clarity */
+}
+
+/* Optional: Add responsiveness for smaller screens */
+@media (max-width: 768px) {
+  .grid-container {
+      grid-template-columns: 1fr; /* Make a single column layout */
+  }
+}

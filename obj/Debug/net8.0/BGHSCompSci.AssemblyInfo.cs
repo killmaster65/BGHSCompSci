@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BGHSCompSci")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e8227b59c40cc50b36e2c7b554771f994a4fb35c")]
 [assembly: System.Reflection.AssemblyProductAttribute("BGHSCompSci")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BGHSCompSci")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
